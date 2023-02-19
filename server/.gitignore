@@ -1,3 +1,2 @@
 __pycache__
-alembic
-alembic.ini
+alembic/versions/*
