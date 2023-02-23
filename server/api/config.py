@@ -1,1 +1,3 @@
-DATABASE_URL = 'mysql://<USERNAME>:<PASSWORD>@ap-south.connect.psdb.cloud/postman-workshop?ssl={"rejectUnauthorized":true}'
+DATABASE_URL = (
+    'mysql://<USERNAME>:<PASSWORD>@<HOST>/<DATABASE>?ssl={"rejectUnauthorized":true}'
+)
