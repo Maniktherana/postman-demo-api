@@ -32,7 +32,7 @@ target_metadata = Base.metadata
 
 
 def get_url():
-    return 'mysql://sa273rvop01ts4lxg5xq:<PASSWORD>@ap-south.connect.psdb.cloud/postman-workshop?ssl={"rejectUnauthorized":true}'
+    return 'mysql://<USERNAME>:<PASSWORD>@<HOST>/<DATABASE>?ssl={"rejectUnauthorized":true}'
 
 
 def run_migrations_offline() -> None:
